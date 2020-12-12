@@ -6,6 +6,7 @@ Menentukan jumlah subnet yang ada dalam topologi menggunakan metode VLSM
 Jumlah IP pada tiap-tiap subnet
 <img src="https://github.com/hrswcksono/Jarkom_Modul4_Lapres_D14/blob/main/img/VLSMIP.png" >
 
+
 Pembagian IP dalam pohon seperti gambar dengan NID 192.168.0.0 dengan netmask /19
 <img src="https://github.com/hrswcksono/Jarkom_Modul4_Lapres_D14/blob/main/img/VLSMtree.jpg" >
 
