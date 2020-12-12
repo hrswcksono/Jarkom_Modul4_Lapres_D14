@@ -1,6 +1,6 @@
 # Jarkom_Modul4_Lapres_D14
 
-##Soal
+## Soal
 <img src="https://github.com/hrswcksono/Jarkom_Modul4_Lapres_D14/blob/main/img/Soal.png" >
 Kerjakan pada Cisco Packet Tracer dan UML menggunakan metode
 perhitungan CLASSLESS yang berbeda.
@@ -8,7 +8,7 @@ perhitungan CLASSLESS yang berbeda.
 Keterangan: Bila di CPT menggunakan VLSM, maka di UML menggunakan CIDR
 atau Sebaliknya
 
-##Menggunakan Cisco Packet Tracer
+## Menggunakan Cisco Packet Tracer
 Menentukan jumlah subnet yang ada dalam topologi menggunakan metode VLSM
 <img src="https://github.com/hrswcksono/Jarkom_Modul4_Lapres_D14/blob/main/img/VLSM.png" >
 
