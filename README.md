@@ -4,7 +4,7 @@ Menentukan jumlah subnet yang ada dalam topologi menggunakan metode VLSM
 <img src="https://github.com/hrswcksono/Jarkom_Modul4_Lapres_D14/blob/main/img/VLSM.png" >
 
 Pembagian IP dalam pohon seperti gambar dengan NID 192.168.0.0 dengan netmask /19
-<img src="https://github.com/hrswcksono/Jarkom_Modul4_Lapres_D14/blob/main/img/VLSMtree.png" >
+<img src="https://github.com/hrswcksono/Jarkom_Modul4_Lapres_D14/blob/main/img/VLSMtree.jpg" >
 
 Penyetingan Routing pada Cisco Packet Tracer
 ```
