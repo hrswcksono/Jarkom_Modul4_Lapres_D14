@@ -1,9 +1,18 @@
 # Jarkom_Modul4_Lapres_D14
 
+##Soal
+<img src="https://github.com/hrswcksono/Jarkom_Modul4_Lapres_D14/blob/main/img/Soal.png" >
+Kerjakan pada Cisco Packet Tracer dan UML menggunakan metode
+perhitungan CLASSLESS yang berbeda.
+
+Keterangan: Bila di CPT menggunakan VLSM, maka di UML menggunakan CIDR
+atau Sebaliknya
+
+##Menggunakan Cisco Packet Tracer
 Menentukan jumlah subnet yang ada dalam topologi menggunakan metode VLSM
 <img src="https://github.com/hrswcksono/Jarkom_Modul4_Lapres_D14/blob/main/img/VLSM.png" >
 
-Jumlah IP pada tiap-tiap subnet yang ada pa da topologi
+Jumlah IP pada tiap-tiap subnet yang ada pada topologi
 <img src="https://github.com/hrswcksono/Jarkom_Modul4_Lapres_D14/blob/main/img/VLSMIP.png" >
 
 Pembagian IP dalam pohon seperti gambar dengan NID 192.168.0.0 dengan netmask /19
