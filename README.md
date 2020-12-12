@@ -1,9 +1,12 @@
 # Jarkom_Modul4_Lapres_D14
 
+Menentukan jumlah subnet yang ada dalam topologi menggunakan metode VLSM
+<img src="https://github.com/hrswcksono/Jarkom_Modul4_Lapres_D14/blob/main/img/VLSM.png" >
 
-<img src="" >
+Pembagian IP dalam pohon seperti gambar dengan NID 192.168.0.0 dengan netmask /19
+<img src="https://github.com/hrswcksono/Jarkom_Modul4_Lapres_D14/blob/main/img/VLSMtree.png" >
 
-
+Penyetingan Routing pada Cisco Packet Tracer
 ```
 SURABAYA
 192.168.0.12/30 mask 255.255.255.252 via 192.168.0.10
