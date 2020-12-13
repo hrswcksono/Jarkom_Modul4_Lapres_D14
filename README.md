@@ -76,11 +76,16 @@ PROBOLINGGO
 
 ## CIDR (Classless Inter Domain Routing) - UML
 
-### - Pertama, tentukan subnet yang ada dalam topologi dan lakukan labelling netmask terhadap masing-masing subnet
+
+- Pertama, tentukan subnet yang ada dalam topologi dan lakukan labelling netmask terhadap masing-masing subnet
+
 
 <img src="https://github.com/hrswcksono/Jarkom_Modul4_Lapres_D14/blob/main/image/1.JPG" >
 
-### - Kedua, gabungkan subnet paling bawah di dalam topologi yang mana paling jauh dari cloud. Subnet yang digabung tersebut akan membentuk sebuah subnet lebih besar dari subnet-subnet kecil yang ada di dalamnya. Lalu ulangi langkah tersebut sampai menjadi sebuah subnet besar yang mencakup 1 topologi yang kita miliki.
+
+
+- Kedua, gabungkan subnet paling bawah di dalam topologi yang mana paling jauh dari cloud. Subnet yang digabung tersebut akan membentuk sebuah subnet lebih besar dari subnet-subnet kecil yang ada di dalamnya. Lalu ulangi langkah tersebut sampai menjadi sebuah subnet besar yang mencakup 1 topologi yang kita miliki.
+
 
 <img src="https://github.com/hrswcksono/Jarkom_Modul4_Lapres_D14/blob/main/image/2.JPG" >
 <img src="https://github.com/hrswcksono/Jarkom_Modul4_Lapres_D14/blob/main/image/3.JPG" >
@@ -92,7 +97,7 @@ PROBOLINGGO
 
 
 
-### - Ketiga, hitung pembagian IP dengan pohon berdasarkan penggabungan subnet yang telah dilakukan.
+- Ketiga, hitung pembagian IP dengan pohon berdasarkan penggabungan subnet yang telah dilakukan.
 
 <img src="https://github.com/hrswcksono/Jarkom_Modul4_Lapres_D14/blob/main/image/tree.JPG" >
 
