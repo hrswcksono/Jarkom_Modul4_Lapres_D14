@@ -265,7 +265,29 @@ iptables –t nat –A POSTROUTING –o eth0 –j MASQUERADE –s 192.168.0.0/16
 ```
 
 
-- Pada 4 router yaitu SURABAYA, PASURUAN, BATU, dan KEDIRI ditambahkan route baru
+- Pada 4 router yaitu SURABAYA, PASURUAN, BATU, dan KEDIRI ditambahkan route baru. Berikut ini konfigurasi routing :
+
+<img src="https://github.com/hrswcksono/Jarkom_Modul4_Lapres_D14/blob/main/image/R_SURABAYA.JPG" >
+<img src="https://github.com/hrswcksono/Jarkom_Modul4_Lapres_D14/blob/main/image/R_PASURUAN.JPG" >
+<img src="https://github.com/hrswcksono/Jarkom_Modul4_Lapres_D14/blob/main/image/R_BATU.JPG" >
+<img src="https://github.com/hrswcksono/Jarkom_Modul4_Lapres_D14/blob/main/image/R_KEDIRI.JPG" >
+
+
+- Jalankan bash script pada UML, menggunakan perintah source, jalankan dengan perintah ```source route.sh```.
+
+### TESTING
+
+- Lakukan testing dengan ping  untuk memastikan rancangan yang sudah dibentuk dalam topologi bekerja / connect satu sama lain.
+
+- Berikut ini beberapa testing :
+
+<img src="https://github.com/hrswcksono/Jarkom_Modul4_Lapres_D14/blob/main/image/jemberbondo.JPG" >
+<img src="https://github.com/hrswcksono/Jarkom_Modul4_Lapres_D14/blob/main/image/madiunbatu.JPG" >
+<img src="https://github.com/hrswcksono/Jarkom_Modul4_Lapres_D14/blob/main/image/sampangits.JPG" >
+
+
+
+
 
 
 
