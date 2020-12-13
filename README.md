@@ -183,7 +183,8 @@ nano /etc/network/interfaces
 
 #### BANYUWANGI (Sebagai Klien)
 
-<img src="https://github.com/hrswcksono/Jarkom_Modul4_Lapres_D14/blob/main/image/BAYUWANGI.JPG" >
+
+<img src="https://github.com/hrswcksono/Jarkom_Modul4_Lapres_D14/blob/main/image/BANYUWANGI.JPG" >
 
 
 #### JEMBER (Sebagai Klien)
