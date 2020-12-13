@@ -1,4 +1,11 @@
 # Jarkom_Modul4_Lapres_D14
+ 
+### KELOMPOK        : D14
+ANGGOTA         :
+
+* Muhammad Haris W.     (05111840000029)
+* Vieri Fath Ayuba      (05111840000153)
+
 
 ## Soal
 <img src="https://github.com/hrswcksono/Jarkom_Modul4_Lapres_D14/blob/main/img/Soal.png" >
