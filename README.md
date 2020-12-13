@@ -149,7 +149,122 @@ xterm -T LUMAJANG -e linux ubd0=LUMAJANG,jarkom umid=LUMAJANG eth0=daemon,,,swit
 nano /etc/network/interfaces
 ```
 
-- 
+#### SURABAYA (Sebagai Router)
+
+
+<img src="https://github.com/hrswcksono/Jarkom_Modul4_Lapres_D14/blob/main/image/SURABAYA.JPG" >
+
+#### PASURUAN (Sebagai Router)
+
+
+<img src="https://github.com/hrswcksono/Jarkom_Modul4_Lapres_D14/blob/main/image/PASURUAN.JPG" >
+
+
+#### MOJOKERTO (Sebagai Server)
+
+
+<img src="https://github.com/hrswcksono/Jarkom_Modul4_Lapres_D14/blob/main/image/MOJOKERTO.JPG" >
+
+
+#### SAMPANG (Sebagai Klien)
+
+
+<img src="https://github.com/hrswcksono/Jarkom_Modul4_Lapres_D14/blob/main/image/SAMPANG.JPG" >
+
+
+#### PROBOLINGGO (Sebagai Router)
+
+<img src="https://github.com/hrswcksono/Jarkom_Modul4_Lapres_D14/blob/main/image/PROBOLINGGO.JPG" >
+
+
+#### SIDOARJO (Sebagai Klien)
+
+<img src="https://github.com/hrswcksono/Jarkom_Modul4_Lapres_D14/blob/main/image/SIDOARJO.JPG" >
+
+#### BANYUWANGI (Sebagai Klien)
+
+<img src="https://github.com/hrswcksono/Jarkom_Modul4_Lapres_D14/blob/main/image/BAYUWANGI.JPG" >
+
+
+#### JEMBER (Sebagai Klien)
+
+<img src="https://github.com/hrswcksono/Jarkom_Modul4_Lapres_D14/blob/main/image/JEMBER.JPG" >
+
+#### BONDOWOSO (Sebagai Klien)
+
+<img src="https://github.com/hrswcksono/Jarkom_Modul4_Lapres_D14/blob/main/image/BONDOWOSO.JPG" >
+
+#### BATU (Sebagai Router)
+
+<img src="https://github.com/hrswcksono/Jarkom_Modul4_Lapres_D14/blob/main/image/BATU.JPG" >
+
+
+#### KEDIRI (Sebagai Router)
+
+
+<img src="https://github.com/hrswcksono/Jarkom_Modul4_Lapres_D14/blob/main/image/KEDIRI.JPG" >
+
+
+#### JOMBANG (Sebagai Klien)
+
+
+<img src="https://github.com/hrswcksono/Jarkom_Modul4_Lapres_D14/blob/main/image/JOMBANG.JPG" >
+
+
+
+#### MADIUN (Sebagai Router)
+
+
+<img src="https://github.com/hrswcksono/Jarkom_Modul4_Lapres_D14/blob/main/image/MADIUN.JPG" >
+
+
+#### BOJONEGORO (Sebagai Klien)
+
+
+<img src="https://github.com/hrswcksono/Jarkom_Modul4_Lapres_D14/blob/main/image/BOJONEGORO.JPG" >
+
+
+
+#### NGANJUK (Sebagai Klien)
+
+
+<img src="https://github.com/hrswcksono/Jarkom_Modul4_Lapres_D14/blob/main/image/NGANJUK.JPG" >
+
+
+#### MALANG (Sebagai Server)
+
+
+<img src="https://github.com/hrswcksono/Jarkom_Modul4_Lapres_D14/blob/main/image/MALANG.JPG" >
+
+
+
+#### BLITAR (Sebagai Router)
+
+<img src="https://github.com/hrswcksono/Jarkom_Modul4_Lapres_D14/blob/main/image/BLITAR.JPG" >
+
+
+#### LUMAJANG (Sebagai Klien)
+
+
+<img src="https://github.com/hrswcksono/Jarkom_Modul4_Lapres_D14/blob/main/image/LUMAJANG.JPG" >
+
+
+
+#### TULUNGAGUNG (Sebagai Klien)
+
+
+<img src="https://github.com/hrswcksono/Jarkom_Modul4_Lapres_D14/blob/main/image/TULUNGAGUNG.JPG" >
+
+
+- pada UML SURABAYA diketikkan perintah 
+
+
+```
+iptables –t nat –A POSTROUTING –o eth0 –j MASQUERADE –s 192.168.0.0/16.
+```
+
+
+- Pada 4 router yaitu SURABAYA, PASURUAN, BATU, dan KEDIRI ditambahkan route baru
 
 
 
