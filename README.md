@@ -76,11 +76,11 @@ PROBOLINGGO
 
 ## CIDR (Classless Inter Domain Routing) - UML
 
-### Pertama, tentukan subnet yang ada dalam topologi dan lakukan labelling netmask terhadap masing-masing subnet
+### - Pertama, tentukan subnet yang ada dalam topologi dan lakukan labelling netmask terhadap masing-masing subnet
 
 <img src="https://github.com/hrswcksono/Jarkom_Modul4_Lapres_D14/blob/main/image/1.JPG" >
 
-### Kedua, gabungkan subnet paling bawah di dalam topologi yang mana paling jauh dari cloud. Subnet yang digabung tersebut akan membentuk sebuah subnet lebih besar dari subnet-subnet kecil yang ada di dalamnya. Lalu ulangi langkah tersebut sampai menjadi sebuah subnet besar yang mencakup 1 topologi yang kita miliki.
+### - Kedua, gabungkan subnet paling bawah di dalam topologi yang mana paling jauh dari cloud. Subnet yang digabung tersebut akan membentuk sebuah subnet lebih besar dari subnet-subnet kecil yang ada di dalamnya. Lalu ulangi langkah tersebut sampai menjadi sebuah subnet besar yang mencakup 1 topologi yang kita miliki.
 
 <img src="https://github.com/hrswcksono/Jarkom_Modul4_Lapres_D14/blob/main/image/2.JPG" >
 <img src="https://github.com/hrswcksono/Jarkom_Modul4_Lapres_D14/blob/main/image/3.JPG" >
@@ -92,7 +92,7 @@ PROBOLINGGO
 
 
 
-### Ketiga, hitung pembagian IP dengan pohon berdasarkan penggabungan subnet yang telah dilakukan.
+### - Ketiga, hitung pembagian IP dengan pohon berdasarkan penggabungan subnet yang telah dilakukan.
 
 <img src="https://github.com/hrswcksono/Jarkom_Modul4_Lapres_D14/blob/main/image/tree.JPG" >
 
@@ -274,9 +274,16 @@ iptables –t nat –A POSTROUTING –o eth0 –j MASQUERADE –s 192.168.0.0/16
 
 - Pada 4 router yaitu SURABAYA, PASURUAN, BATU, dan KEDIRI ditambahkan route baru. Berikut ini konfigurasi routing :
 
+- Surabaya
 <img src="https://github.com/hrswcksono/Jarkom_Modul4_Lapres_D14/blob/main/image/R_SURABAYA.JPG" >
+
+- Pasuruan
 <img src="https://github.com/hrswcksono/Jarkom_Modul4_Lapres_D14/blob/main/image/R_PASURUAN.JPG" >
+
+- Batu
 <img src="https://github.com/hrswcksono/Jarkom_Modul4_Lapres_D14/blob/main/image/R_BATU.JPG" >
+
+- Kediri
 <img src="https://github.com/hrswcksono/Jarkom_Modul4_Lapres_D14/blob/main/image/R_KEDIRI.JPG" >
 
 
@@ -288,8 +295,14 @@ iptables –t nat –A POSTROUTING –o eth0 –j MASQUERADE –s 192.168.0.0/16
 
 - Berikut ini beberapa testing :
 
+- Dari Jember ping ke Bondowoso
 <img src="https://github.com/hrswcksono/Jarkom_Modul4_Lapres_D14/blob/main/image/jemberbondo.JPG" >
+
+
+- Dari Batu ping ke Batu
 <img src="https://github.com/hrswcksono/Jarkom_Modul4_Lapres_D14/blob/main/image/madiunbatu.JPG" >
+
+- Dari Sampang ping ke Google
 <img src="https://github.com/hrswcksono/Jarkom_Modul4_Lapres_D14/blob/main/image/sampangits.JPG" >
 
 
